@@ -31,3 +31,20 @@ unitTest.checkInput = function(method){
     }
   };
 console.log(unitTest.checkInput(getFileExtension));
+
+/*Question 3: Write a simple validation script for a simple form
+
+ * - If the required fields are not filled out, do not submit the form
+
+ * - If the email is invalid, do not submit the form
+
+ * - To validate the email, please call the validateEmail function
+
+ * - The form should be able to have more fields added to it and 
+
+     still work, without changing the JavaScript
+
+   - The form doesn't need to post to a specific URL but please comment
+
+     inside the code to demonstrate where this would happen
+     */
