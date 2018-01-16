@@ -48,3 +48,13 @@ console.log(unitTest.checkInput(getFileExtension));
 
      inside the code to demonstrate where this would happen
      */
+function validateEmail(){
+    var str = document.getElementById("submit").value;
+    var regexp = /[a-z0-9!#$%&'*+/=?^_`{|}~.-]+@[a-z0-9-]+(\.[a-z0-9-]+)*/;
+   if(regexp.test(str) === false){
+      alert("Not a valid e-mail address");
+     return false;
+      }
+   /* Please check the form in Codepen: https://codepen.io/juandata/pen/NXLqBE/
+   in this case we use codepen to show the form values, but you can also use the attribute action to specify a page where the values will be received. */
+ }
