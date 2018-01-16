@@ -56,5 +56,6 @@ function validateEmail(){
      return false;
       }
    /* Please check the form in Codepen: https://codepen.io/juandata/pen/NXLqBE/
-   in this case we use codepen to show the form values, but you can also use the attribute action to specify a page where the values will be received. */
- }
+    in this case I use codepen to show the form values, but I can also use the 
+   attribute action to specify a page where the values will be received. */
+   }
