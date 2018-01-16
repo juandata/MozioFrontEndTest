@@ -8,7 +8,8 @@ String.prototype.repeatify = function(n) {
 
 "Mozio".repeatify(3);
 
-/*Question 2: Return the file extension or "false" if no extension. Please explain how would you implement a unit test for this method. What would you test?
+/*Question 2: Return the file extension or "false" if no extension. Please explain how would you implement a unit test for this
+method. What would you test?
 */
 function getFileExtension(file){
   var res = file.indexOf(".") === -1 ?  false :  file.split(".").pop();
