@@ -59,3 +59,14 @@ function validateEmail(){
     in this case I use codepen to show the form values, but I can also use the 
    attribute action to specify a page where the values will be received. */
    }
+
+/*Question 7: Write a code to remove duplicates from an array and return an array of only unique elements.*/
+var names = ["Juan","Luis","Miguel","Andrea","Jenny","Luisa","Manuela", "Juan","Luis","Miguel","Andrea","Jenny","Luisa","Manuela", ];
+
+var unique = names.reduce(function(a,b){
+    if (a.indexOf(b) < 0 ) a.push(b);
+    return a;
+  },[]);
+
+console.log(unique);
+
